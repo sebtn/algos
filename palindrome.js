@@ -3,7 +3,7 @@ function palindrome(str) {
 
   // the regex  / /g,''  removes white space
   // /[.,\/#!$%\^&\*;:{}=\-_`~ ()]/g,'') removes crazy chars
-  var newStr = str.toLowerCase(str).replace(/[.,\|/#!$%\^&\*;:{}=\-_`~                    ()]/g,'').replace(/ /g,'');
+  var newStr = str.toLowerCase(str).replace(/[.,\|/#!$%\^&\*;:{}=\-_`~()]/g,'').replace(/ /g,'');
   var newStrReverse = newStr.split('').reverse().join('');  
   if (newStr !== newStrReverse ) { 
     return false; 
