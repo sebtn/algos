@@ -1,3 +1,8 @@
+// Return the lowest index at which a value (second argument) 
+// should be inserted into an array 
+// (first argument) once it has been sorted. 
+// The returned value should be a number.
+
 // jshint esversion:6
 function getIndexToIns(arr, num) {
   // Find my place in this sorted array.
